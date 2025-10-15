@@ -1,22 +1,14 @@
-streamlit-rag-app
-├── src
-│   ├── app.py
-│   ├── components
-│   │   ├── __init__.py
-│   │   ├── document_uploader.py
-│   │   └── query_interface.py
-│   ├── services
-│   │   ├── __init__.py
-│   │   ├── document_processor.py
-│   │   ├── embedding_service.py
-│   │   ├── ollama_service.py
-│   │   └── vector_store.py
-│   └── utils
-│       ├── __init__.py
-│       └── text_helpers.py
-├── data
-│   └── vector_store
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
+"""
+Query interface component for the RAG application.
+This module is currently not used as the query functionality is implemented directly in app.py
+"""
+
+import streamlit as st
+
+
+def render_query_interface():
+    """
+    Render a query interface for asking questions about documents.
+    This is a placeholder function - the actual implementation is in app.py
+    """
+    st.write("Query interface placeholder")
